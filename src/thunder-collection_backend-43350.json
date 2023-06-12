@@ -1,0 +1,146 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "backend-43350",
+    "dateExported": "2023-06-12T01:53:53.321Z",
+    "version": "1.1",
+    "folders": [
+        {
+            "_id": "79cae1ad-3613-4cd5-91e8-629000b1d578",
+            "name": "products",
+            "containerId": "",
+            "created": "2023-06-12T01:15:39.950Z",
+            "sortNum": 10000
+        },
+        {
+            "_id": "d3140314-49c8-486a-abec-1f74c2a14169",
+            "name": "carts",
+            "containerId": "",
+            "created": "2023-06-12T01:15:46.370Z",
+            "sortNum": 20000
+        }
+    ],
+    "requests": [
+        {
+            "_id": "901229b7-0a32-4e68-be78-ee42185c8dd9",
+            "colId": "05147073-5e32-43bf-9eba-a972778cc7bd",
+            "containerId": "79cae1ad-3613-4cd5-91e8-629000b1d578",
+            "name": "http://localhost:8080/api/products",
+            "url": "http://localhost:8080/api/products",
+            "method": "GET",
+            "sortNum": 10000,
+            "created": "2023-06-12T01:15:28.693Z",
+            "modified": "2023-06-12T01:15:42.020Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "bc8cf697-110b-4374-a573-2f9c6c891f33",
+            "colId": "05147073-5e32-43bf-9eba-a972778cc7bd",
+            "containerId": "79cae1ad-3613-4cd5-91e8-629000b1d578",
+            "name": "http://localhost:8080/api/products/:pid",
+            "url": "http://localhost:8080/api/products/5",
+            "method": "GET",
+            "sortNum": 20000,
+            "created": "2023-06-12T01:18:38.290Z",
+            "modified": "2023-06-12T01:18:38.290Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "4200eecd-7691-4896-aefb-2d9ae00eb586",
+            "colId": "05147073-5e32-43bf-9eba-a972778cc7bd",
+            "containerId": "79cae1ad-3613-4cd5-91e8-629000b1d578",
+            "name": "http://localhost:8080/api/products",
+            "url": "http://localhost:8080/api/products",
+            "method": "POST",
+            "sortNum": 30000,
+            "created": "2023-06-12T01:29:22.218Z",
+            "modified": "2023-06-12T01:29:22.218Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\r\n\t\t\"title\": \"Resident evil 1\",\r\n\t\t\"description\": \"Juego de terror\",\r\n\t\t\"price\": 400,\r\n\t\t\"code\": \"1001\",\r\n\t\t\"stock\": 2,\r\n\t\t\"thumbnail\": \"imagenGenerica\"\r\n\t}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "9db4b840-90ce-45dc-8b84-09903895cc63",
+            "colId": "05147073-5e32-43bf-9eba-a972778cc7bd",
+            "containerId": "79cae1ad-3613-4cd5-91e8-629000b1d578",
+            "name": "http://localhost:8080/api/products/7",
+            "url": "http://localhost:8080/api/products/7",
+            "method": "PUT",
+            "sortNum": 40000,
+            "created": "2023-06-12T01:36:26.441Z",
+            "modified": "2023-06-12T01:36:26.441Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n\t\t\"description\": \"Juego de terror\",\n\t\t\"price\": 7000,\n\t\t\"code\": \"10\",\n\t\t\"stock\": 2\n\t}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "03016167-e995-4cfa-a8a5-620a0fb9d400",
+            "colId": "05147073-5e32-43bf-9eba-a972778cc7bd",
+            "containerId": "79cae1ad-3613-4cd5-91e8-629000b1d578",
+            "name": "http://localhost:8080/api/products/9",
+            "url": "http://localhost:8080/api/products/9",
+            "method": "DELETE",
+            "sortNum": 50000,
+            "created": "2023-06-12T01:38:46.378Z",
+            "modified": "2023-06-12T01:38:46.378Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "68f93571-2f40-4d5e-998c-0ac60c9cd694",
+            "colId": "05147073-5e32-43bf-9eba-a972778cc7bd",
+            "containerId": "d3140314-49c8-486a-abec-1f74c2a14169",
+            "name": "http://localhost:8080/api/carts",
+            "url": "http://localhost:8080/api/carts",
+            "method": "POST",
+            "sortNum": 60000,
+            "created": "2023-06-12T01:41:39.018Z",
+            "modified": "2023-06-12T01:41:39.018Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "1b90d590-d1f5-4871-b2a2-a3cf90ad4c0d",
+            "colId": "05147073-5e32-43bf-9eba-a972778cc7bd",
+            "containerId": "d3140314-49c8-486a-abec-1f74c2a14169",
+            "name": "http://localhost:8080/api/carts/:pid",
+            "url": "http://localhost:8080/api/carts/10",
+            "method": "GET",
+            "sortNum": 70000,
+            "created": "2023-06-12T01:42:28.785Z",
+            "modified": "2023-06-12T01:42:28.785Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "5b8694a1-e910-4422-8187-c2253b97f65d",
+            "colId": "05147073-5e32-43bf-9eba-a972778cc7bd",
+            "containerId": "d3140314-49c8-486a-abec-1f74c2a14169",
+            "name": "http://localhost:8080/api/carts/13/products/2",
+            "url": "http://localhost:8080/api/carts/13/products/2",
+            "method": "POST",
+            "sortNum": 80000,
+            "created": "2023-06-12T01:44:16.569Z",
+            "modified": "2023-06-12T01:44:16.569Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        }
+    ]
+}

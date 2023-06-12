@@ -1,0 +1,83 @@
+[
+	{
+		"id": 1,
+		"title": "Resident evil 1",
+		"description": "Juego de terror",
+		"price": 400,
+		"code": "1001",
+		"stock": 2,
+		"thumbnail": "imagenGenerica"
+	},
+	{
+		"id": 2,
+		"title": "UFC 2",
+		"description": "Juego de terror",
+		"price": 4600,
+		"code": "1002",
+		"stock": 7,
+		"thumbnail": "imagenGenerica2"
+	},
+	{
+		"id": 3,
+		"title": "FIFA 33",
+		"description": "Juego de futbol",
+		"price": 4200,
+		"code": "1003",
+		"stock": 9,
+		"thumbnail": "imagenGenerica3"
+	},
+	{
+		"id": 4,
+		"title": "DyD",
+		"description": "Juego de estrategia",
+		"price": 4700,
+		"code": "1004",
+		"stock": 14,
+		"thumbnail": "imagenGenerica4"
+	},
+	{
+		"id": 5,
+		"title": "Minecraft",
+		"description": "Juego de superviviencia",
+		"price": 4500,
+		"code": "1005",
+		"stock": 13,
+		"thumbnail": "imagenGenerica5"
+	},
+	{
+		"id": 6,
+		"title": "Resident evil 6",
+		"description": "Juego de terror",
+		"price": 400,
+		"code": "1006",
+		"stock": 2,
+		"thumbnail": "imagenGenerica6"
+	},
+	{
+		"id": 7,
+		"title": "UFC 7",
+		"description": "Juego de terror",
+		"price": 7000,
+		"code": "10",
+		"stock": 2,
+		"thumbnail": "imagenGenerica7"
+	},
+	{
+		"id": 8,
+		"title": "FIFA 88",
+		"description": "Juego de futbol",
+		"price": 4200,
+		"code": "1008",
+		"stock": 9,
+		"thumbnail": "imagenGenerica8"
+	},
+	{
+		"id": 10,
+		"title": "Terraria",
+		"description": "Juego de superviviencia",
+		"price": 4500,
+		"code": "1010",
+		"stock": 13,
+		"thumbnail": "imagenGenerica10"
+	}
+]
